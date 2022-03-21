@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
+
+:root {
+    --black: #181818;
+    --white: #ffffff;
+    --gray: #eeeeee;
+    --gray-light: #fbfbfb;
+    --font-body: 'PT Sans', sans-serif;
+    --font-title: 'Libre Baskerville', serif;
+}
+
+* {
+margin: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--font-body);
+    background-color: var(--gray-light);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-title);
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;    
+}
+
+nav ul li a {
+    display: none;
+    text-decoration: none;
+    color: var(--black);
+}
+
+header {
+    padding: 100px 0 50px 0;
+    text-align: center;
+}
+
+header h1 {
+      font-size: 2.5rem;       
+  }
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+header img {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.card {
+    text-align: center ;
+    margin: 50px auto;
+}
+
+.card img {
+    width:100%;
+    border-radius: 5px;
+}
+
+.card p {
+    font-weight: normal;
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
+
+
+.btn-light {
+    color: var(--black);   
+    border: 1px solid var(--black);
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 12px 0;
+    display: block;
+    text-align: center;
+}
+
+ .newsletter {
+    background-color: var(--gray);  
+    padding: 20px;
+    margin-top: 80px; 
+}
+
+.newsletter img {
+    width: 100%;
+}
+
+.newsletter h3 {
+    width: 65%;
+    font-size: 2rem;
+    text-align: left;
+    margin: 50px 0;
+   }
+
+.btn-dark {
+    color: var(--white);
+    background-color: var(--black);
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 12px 0;
+    display: block;
+    text-align: center;   
+}
+
+
+
+footer ul {   
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 50px 0;
+    padding: 0;
+    
+}
+
+footer ul li {
+    border: 1px solid var(--gray);
+    border-radius: 3px;
+    padding: 12px;
+    text-align: center;
+}
+
+footer ul li a {
+   color: var(--black);
+}
+
+
+footer ul li a svg {
+    width: 2rem;
+    height: 2rem;      
+  
+}
+
+
+
