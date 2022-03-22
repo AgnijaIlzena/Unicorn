@@ -95,6 +95,8 @@ header img {
     text-align: center;
 }
 
+/* newsletter */
+
  .newsletter {
     background-color: var(--gray);  
     padding: 20px;
@@ -121,8 +123,6 @@ header img {
     display: block;
     text-align: center;   
 }
-
-
 
 footer ul {   
     list-style: none;
